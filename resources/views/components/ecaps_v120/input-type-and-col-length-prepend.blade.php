@@ -1,0 +1,13 @@
+<div class="col-{{$col}}">
+    <div class="form-group">
+        <div class="input-group"> 
+            <div class="input-group-prepend">
+                <span class="input-group-text">{{$prepend}}</span>
+            </div>
+            <input name="{{$name}}" 
+                type="{{$type}}" 
+                class="form-control"
+                value="{{$val}}" > 
+        </div>
+    </div>
+</div>
